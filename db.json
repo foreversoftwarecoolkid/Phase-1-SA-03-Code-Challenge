@@ -1,0 +1,16 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Cat",
+            "image": "cat.jpg",
+            "votes": 0
+        },
+        {
+            "id": 2,
+            "name": "Dog",
+            "image": "dog.jpg",
+            "votes": 0
+        }
+    ]
+}
