@@ -1,13 +1,22 @@
-# Phase-1-SA-03-Code-Challenge
+# Flatacuties
 
-README File;author by henry
+## Description
 
-The README file includes:
+Flatacuties is a web app where users can vote for the cutest animals! This project serves as a practice for array iteration, DOM manipulation, events, and server communication.
 
-An overview of the project and goals
-Screenshots of the app
-Instructions for setting up and running the project locally
-A list of the technologies/languages used
-A high-level overview of how the code is structured
-Instructions for how to use the app and its features
-Credit for any assets or libraries used
+## Setup
+
+1. Clone this repository.
+2. Run the JSON server with the command: `json-server --watch db.json`
+3. Open `index.html` in your browser.
+
+## Core Features
+
+- See a list of all animal names.
+- Click on an animal's name to see its details (image and number of votes).
+- Add the number of votes for each animal when viewing its details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
