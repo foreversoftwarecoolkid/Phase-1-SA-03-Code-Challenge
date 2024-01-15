@@ -1,0 +1,96 @@
+/* Resetting default browser styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: hwb(0 0% 100% / 0.751);
+}
+
+/* Container for the list of animals */
+#animalList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Individual animal item style */
+.animal {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.animal:hover {
+    transform: scale(1.05);
+}
+
+/* Style for details section */
+#animalDetails {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Responsive image within details */
+#animalDetails img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Style for the reset votes button */
+#resetVotes {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: hsl(323, 88%, 52%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#resetVotes:hover {
+    background-color: hsl(214, 100%, 1%);
+}
+
+/* Style for the form for adding animals */
+#addAnimalForm {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#addAnimalForm label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#addAnimalForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#addAnimalForm button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: hsl(120, 88%, 52%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#addAnimalForm button:hover {
+    background-color: hsl(120, 100%, 1%);
+}

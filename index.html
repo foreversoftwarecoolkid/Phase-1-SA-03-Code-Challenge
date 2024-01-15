@@ -2,13 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Flatacuties</title>
 </head>
 <body>
-    <div id="app">
-        <!-- List of characters goes here -->
-    </div>
+    <div id="animalList"></div>
+    <div id="animalDetails"></div>
+    <button id="resetVotes">Reset Votes</button>
+
+    <!-- Form for adding animals -->
+    <form id="addAnimalForm">
+        <label for="animalName">Animal Name:</label>
+        <input type="text" id="animalName" required>
+        <label for="animalImage">Image URL:</label>
+        <input type="url" id="animalImage" required>
+        <button type="submit">Add Animal</button>
+    </form>
 
     <script src="app.js"></script>
 </body>
